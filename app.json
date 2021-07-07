@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "do-or-drink",
-    "slug": "do-or-drink",
+    "name": "or Drink",
+    "slug": "or-drink",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/or-drink-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/or-drink-splash-screen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1E2D38"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,20 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.kerryoo.ordrink",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kerryoo.ordrink",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#1E2D38"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/or-drink-icon.png"
     }
   }
 }
